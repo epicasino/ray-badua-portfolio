@@ -1,6 +1,5 @@
 #aboutMe {
   margin-top: 10vh;
-  color: aliceblue;
   height: 60vh;
   display: flex;
   justify-content: space-evenly;
@@ -35,12 +34,56 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  box-shadow: .5rem .5rem 2px 1px #00000084;
 }
 
-@media (max-width:480px){
+.slideFadeIn {
+  animation: slideFadeIn 1s;
+  -webkit-animation: slideFadeIn 1s;
+}
+
+.fadeIn {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+}
+
+@keyframes slideFadeIn {
+  from {
+    opacity: 0;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+
+}
+
+@media (max-width: 480px) {
   #aboutMe {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column-reverse nowrap;
     align-items: center;
     width: 100%;
     margin: 25% 0 0 0;
@@ -74,8 +117,11 @@
   }
 }
 
-@media (max-width:960px){}
+@media (max-width: 960px) {
+}
 
-@media (min-width:1025px){}
+@media (min-width: 1025px) {
+}
 
-@media (max-width:1280px){}
+@media (max-width: 1280px) {
+}

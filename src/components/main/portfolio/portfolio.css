@@ -14,9 +14,18 @@
   margin: 0 5vw 0 5vw;
 }
 
-.portfolioWorkContainer {
+.mainProjectContainer {
+  background-image: url('../../../../public/assets/images/bi-background-black.png');
+  background-size: cover;
   margin: 5vh 0 5vh 0;
-  border: 2px solid aliceblue; /* remove later */
-  height: 150px;
+  border: 2px solid aliceblue;
+  height: 22vh;
   width: 100%;
+  filter: brightness(80%);
+  -webkit-filter: brightness(80%);
+}
+
+.mainProjectContainer > p {
+  font-size: 2em;
+  padding: 0 1% 0 1%;
 }

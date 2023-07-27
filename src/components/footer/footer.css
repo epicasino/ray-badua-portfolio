@@ -1,0 +1,16 @@
+footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  bottom: 1%;
+  width: 99%;
+  color: #f0f8ff67;
+}
+
+@media (max-width: 480px) {
+  footer {
+    bottom: -15%;
+    padding-bottom: 2%;
+  }
+}
