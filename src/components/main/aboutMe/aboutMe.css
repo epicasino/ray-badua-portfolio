@@ -1,0 +1,32 @@
+#aboutMe {
+  margin-top: 10vh;
+  color: aliceblue;
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.aboutMeText > h1 {
+  font-size: 4vh;
+  padding-bottom: 1vh;
+  border-bottom: 2px solid;
+}
+
+.aboutMeText > p {
+  font-size: 3vh;
+}
+
+.aboutMeImg {
+  height: 30vw;
+  display: flex;
+  align-self: center;
+  border: 5px solid aliceblue;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
