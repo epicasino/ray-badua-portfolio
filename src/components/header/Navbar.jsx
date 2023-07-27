@@ -4,9 +4,9 @@ export default function Navbar() {
     <nav>
       <div className="navLinks">
         <p>Ray Badua</p>
-        <a href="#aboutMe">About Me</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+        <a href="/about-me">About Me</a>
+        <a href="/portfolio">Portfolio</a>
+        <a href="/contact">Contact</a>
         <a
           href="../../assets/docs/Ray_Badua_Resume.pdf"
           rel="noreferrer"

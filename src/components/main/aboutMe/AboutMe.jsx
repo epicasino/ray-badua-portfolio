@@ -1,7 +1,10 @@
+import Header from "../../header/Header";
 import "./aboutMe.css";
 
 export default function AboutMe() {
   return (
+    <>
+    <Header />
     <div id="aboutMe">
       <div className="aboutMeText">
         <h1>About Me</h1>
@@ -14,5 +17,6 @@ export default function AboutMe() {
       </div>
       <img className="aboutMeImg" src="../../assets/images/ray_beach.JPG"></img>
     </div>
+    </>
   );
 }

@@ -1,5 +1,8 @@
 #portfolio {
   margin: 15vh 1vw 10vh 1vw;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
 }
 
 .portfolioTitle {
@@ -9,4 +12,11 @@
   padding-bottom: 1vh;
   text-align: center;
   margin: 0 5vw 0 5vw;
+}
+
+.portfolioWorkContainer {
+  margin: 5vh 0 5vh 0;
+  border: 2px solid aliceblue; /* remove later */
+  height: 150px;
+  width: 100%;
 }

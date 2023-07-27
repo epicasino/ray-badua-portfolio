@@ -1,5 +1,5 @@
 header {
-  border-bottom: .2rem solid #ffffff1c;
+  border-bottom: 0.2rem solid #ffffff1c;
 }
 
 nav {
@@ -32,4 +32,41 @@ nav {
   padding: 0 0.5% 0 0.5%;
   filter: invert();
   -webkit-filter: invert();
+}
+
+@media (max-width: 480px) {
+
+  header{
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+  }
+
+  nav {
+    color: aliceblue;
+    display: block;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .navLinks {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .navLinks > p {
+    font-size: 1.5em;
+    padding-bottom: 5px;
+    border-bottom: 2px solid aliceblue;
+  }
+
+  .navLinks > a {
+    color: aliceblue;
+    padding: 0 1% 0 1%;
+    text-decoration: none;
+  }
+
+  .navIcons {
+    display: none;
+  }
 }
