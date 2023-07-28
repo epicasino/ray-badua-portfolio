@@ -1,16 +1,25 @@
-import AboutMe from './components/main/aboutMe/AboutMe';
-import Portfolio from './components/main/portfolio/Portfolio';
+import Header from './components/header/Header'
+import Footer from './components/footer/Footer'
 import './index.css'
-import { Route, Routes } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 export default function App() {
+
+  if (history.scrollRestoration) {
+    history.scrollRestoration = "manual";
+  } else {
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    };
+  }
+  
   return (
     <>
-      <Routes>
-        <Route exact path="/" element={<AboutMe />}></Route>
-        <Route exact path="/about-me" element={<AboutMe />}></Route>
-        <Route exact path="/portfolio" element={<Portfolio />}></Route>
-      </Routes>
+      <Header />
+      <main>
+      <Outlet />
+      </main>
+      <Footer />
     </>
   );
 }

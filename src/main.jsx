@@ -1,12 +1,40 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import { BrowserRouter } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+import AboutMe from './components/main/aboutMe/AboutMe.jsx'
+import Portfolio from './components/main/portfolio/Portfolio.jsx';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    // errorElement: <Error />,
+    children: [
+      {
+        index: true,
+        element: <AboutMe />,
+      },
+      {
+        path: "/about-me",
+        element: <AboutMe />,
+      },
+      {
+        path: "/portfolio",
+        element: <Portfolio />,
+      },
+      // {
+      //   path: "/Contact",
+      //   element: <Contact />,
+      // },
+    ],
+  },
+]);
+
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>,
-)
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);

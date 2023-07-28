@@ -33,6 +33,15 @@ nav {
   -webkit-filter: invert();
 }
 
+.navLinks > a:hover {
+  text-decoration: underline;
+}
+
+.navIcons > a > img:hover {
+  filter: drop-shadow(2px 2px 2px #00000066);
+  -webkit-filter: drop-shadow(2px 2px 2px #00000066);
+}
+
 @media (max-width: 480px) {
 
   header{

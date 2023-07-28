@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --dark: #17476d;
   --void: #0E0B16;
@@ -11,4 +15,11 @@ body {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #0e0b16ee;
   color: aliceblue;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  min-height: 79vh;
+  height: 100%;
 }

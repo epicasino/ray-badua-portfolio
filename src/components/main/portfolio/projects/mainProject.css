@@ -1,0 +1,46 @@
+.mainProjectContainer {
+  background-color: #00000044;
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  animation: slideFadeIn 1s;
+  -webkit-animation: slideFadeIn 1s;
+}
+
+@keyframes slideFadeIn {
+  from {
+    opacity: 0;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+}
+  to {
+    opacity: 1;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+}
+
+.mainProjectText {
+  width: 50%;
+  font-size: 2em;
+  padding: 0 1% 0 1%;
+}
+
+.mainProjectImage {
+  width: 50%;
+  border: .25em solid #525252;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
