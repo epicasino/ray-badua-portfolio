@@ -9,9 +9,9 @@ export default function AboutMe() {
         <div className="aboutMeText slideFadeIn">
           <h1>About Me</h1>
           <p>
-            Hello! I'm a full-stack engineer with expertise in MongoDB, Express,
-            React, and NodeJS. I've been a programmer for 2 years, with notable
-            proficiency in JavaScript.
+            Hello! I&#39;m a full-stack engineer with expertise in MongoDB,
+            Express, React, and NodeJS. I&#39;ve been a programmer for 2 years,
+            with notable proficiency in JavaScript.
           </p>
           <p>Besides coding, I love playing the guitar and rock climbing!</p>
         </div>
