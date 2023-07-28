@@ -1,7 +1,7 @@
-import "./portfolio.css";
-import MainProject from "./projects/MainProject";
-import SideProject from "./projects/sideProjects/SideProject";
-import { sideProjectArray } from "./projects/sideProjects/sideProjectArray";
+import "../components/main/portfolio/portfolio.css";
+import MainProject from "../components/main/portfolio/projects/MainProject";
+import SideProject from "../components/main/portfolio/projects/sideProjects/SideProject";
+import { sideProjectArray } from "../components/main/portfolio/projects/sideProjects/sideProjectArray";
 
 function Portfolio() {
   return (
