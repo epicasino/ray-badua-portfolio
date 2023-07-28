@@ -35,12 +35,15 @@ export default function SideProject({ props }) {
           )}
         </div>
       </div>
-      <div
+      <a
+        href={props.heroku ? props.heroku : props.github}
+        target="_blank"
+        rel="noreferrer"
         className="sideProjectImage hover:filter-none"
         style={{
           backgroundImage: `url(${props.imgUrl})`,
         }}
-      ></div>
+      ></a>
     </div>
   );
 }

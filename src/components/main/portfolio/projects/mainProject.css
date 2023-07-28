@@ -38,7 +38,14 @@
   padding: 0 1% 0 1%;
 }
 
+.mainProjectIcons > a:hover {
+  filter: drop-shadow(2px 2px 2px #ffffff6b);
+  -webkit-filter: drop-shadow(2px 2px 2px #ffffff6b);
+}
+
 .mainProjectImage {
+  background-size: cover;
+  background-position: 50%;
   width: 50%;
   border: .25em solid #525252;
   filter: grayscale(100%);

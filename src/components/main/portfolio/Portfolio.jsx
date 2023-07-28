@@ -8,7 +8,7 @@ function Portfolio() {
     <>
       <div id="portfolio">
         <div className="container" id="portfolioText">
-          <h1 className="portfolioTitle">Portfolio</h1>
+          <h1 className="portfolioTitle animate-bounce">Portfolio</h1>
         </div>
 
         <MainProject
