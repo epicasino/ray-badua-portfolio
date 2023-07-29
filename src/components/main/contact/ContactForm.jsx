@@ -4,7 +4,30 @@ export default function ContactForm() {
       <h1 className="text-5xl grid content-center justify-center row-span-1 underline">
         Contact Form
       </h1>
-      <form className="contactForm grid grid-cols-2 gap-4 mx-10 content-start row-span-2 text-black">
+      <form
+        className="contactForm grid grid-cols-2 gap-4 mx-10 content-start row-span-2 text-black"
+        action="https://api.web3forms.com/submit"
+        method="POST"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="bb1232a3-f140-4f05-8bb3-c26f7638f5c4"
+        ></input>
+
+        <input
+          type="hidden"
+          name="redirect"
+          value="https://web3forms.com/success"
+        />
+
+        <input
+          type="checkbox"
+          name="botcheck"
+          id=""
+          style={{ display: "none" }}
+        />
+
         <input type="text" placeholder="First Name" name="fName"></input>
 
         <input type="text" placeholder="Last Name" name="lName"></input>
