@@ -2,3 +2,7 @@
   min-height: 90vh;
   height: 100%;
 }
+
+.contactTextTitle {
+  border-right: aliceblue solid;
+}
