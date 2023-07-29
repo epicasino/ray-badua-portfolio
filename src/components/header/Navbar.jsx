@@ -1,12 +1,36 @@
+import { Link, useLocation } from "react-router-dom";
 import "./header.css";
 export default function Navbar() {
+  const currentPage = useLocation().pathname;
+
   return (
     <nav className="p-4">
       <div className="navLinks">
         <p>Ray Badua</p>
-        <a href="/about-me">About Me</a>
-        <a href="/portfolio">Portfolio</a>
-        <a href="/contact">Contact</a>
+        <a href="/about-me">
+          <Link
+            to="/about-me"
+            className={currentPage === "/about-me" ? "underline" : ""}
+          >
+            About Me
+          </Link>
+        </a>
+        <a href="/portfolio">
+          <Link
+            to="/portfolio"
+            className={currentPage === "/portfolio" ? "underline" : ""}
+          >
+            Portfolio
+          </Link>
+        </a>
+        <a href="/contact">
+          <Link
+            to="/contact"
+            className={currentPage === "/contact" ? "underline" : ""}
+          >
+            Contact
+          </Link>
+        </a>
         <a
           href="../../assets/docs/Ray_Badua_Resume.pdf"
           rel="noreferrer"

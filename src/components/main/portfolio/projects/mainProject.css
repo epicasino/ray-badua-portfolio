@@ -5,11 +5,11 @@
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
-  animation: slideFadeIn 1s;
-  -webkit-animation: slideFadeIn 1s;
+  animation: slideUpFadeIn 1s;
+  -webkit-animation: slideUpFadeIn 1s;
 }
 
-@keyframes slideFadeIn {
+@keyframes slideUpFadeIn {
   from {
     opacity: 0;
     filter: blur(5px);
@@ -19,7 +19,7 @@
     -moz-transform: translateY(100%);
     -ms-transform: translateY(100%);
     -o-transform: translateY(100%);
-}
+  }
   to {
     opacity: 1;
     filter: blur(0);
@@ -29,7 +29,7 @@
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
-}
+  }
 }
 
 .mainProjectText {
@@ -47,7 +47,7 @@
   background-size: cover;
   background-position: 50%;
   width: 50%;
-  border: .25em solid #525252;
+  border: 0.25em solid #525252;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
