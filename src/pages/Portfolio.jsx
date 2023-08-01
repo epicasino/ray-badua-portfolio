@@ -13,10 +13,10 @@ function Portfolio() {
 
         <MainProject
           props={{
-            title: "Project 3",
-            tech: "Some Tech",
-            description: "Description",
-            github: "https://github.com/epicasino",
+            title: "Fishing Forecast",
+            tech: "MongoDB, ExpressJS, React, NodeJS",
+            description: "A full-stack web application that gets current information on weather, along with a weekly tide-chart to plan your next fishing trip in San Diego.",
+            github: "https://github.com/epicasino/fishing-forecast",
             heroku: "https://github.com/epicasino",
             imgUrl: "../../../../assets/images/bi-background-black.png",
           }}

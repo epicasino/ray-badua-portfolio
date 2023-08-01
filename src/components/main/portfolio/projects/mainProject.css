@@ -64,9 +64,9 @@
   .sideProjectText > h5 {
     font-size: 1rem;
   }
-  .mainProjectText {
+  .mainProjectText > p {
     width: 100%;
-    font-size: 2em;
+    font-size: .75em;
     padding: 0 1% 0 1%;
   }
 
