@@ -31,3 +31,40 @@
     -o-transform: translateX(0);
   }
 }
+
+@media (max-width: 480px) {
+  #contact {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .contactForm {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+  }
+  .contactForm > h1 {
+    margin-top: 2rem;
+  }
+  .contactTextTitle {
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 3rem;
+    border-right: 0;
+    border-bottom: aliceblue solid;
+  }
+  .contactForm {
+    margin: 0;
+  }
+}
+
+@media (max-width: 960px) {
+}
+
+@media (min-width: 1025px) {
+}
+
+@media (max-width: 1280px) {
+  .contactTextTitle {
+    font-size: 5rem;
+  }
+}

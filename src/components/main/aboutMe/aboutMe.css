@@ -86,11 +86,11 @@
     flex-flow: column-reverse nowrap;
     align-items: center;
     width: 100%;
-    margin: 25% 0 0 0;
+    margin: 0;
   }
 
   .aboutMeText {
-    width: 100%;
+    width: 95%;
     text-align: center;
   }
 
@@ -101,7 +101,7 @@
   }
 
   .aboutMeText > p {
-    font-size: 3vh;
+    font-size: 2vh;
   }
 
   .aboutMeImg {
@@ -118,6 +118,40 @@
 }
 
 @media (max-width: 960px) {
+  #aboutMe {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .aboutMeText {
+    width: 95%;
+    text-align: center;
+  }
+
+  .aboutMeText > h1 {
+    font-size: 4vh;
+    padding-bottom: 1vh;
+    border-bottom: 2px solid;
+  }
+
+  .aboutMeText > p {
+    font-size: 2vh;
+  }
+
+  .aboutMeImg {
+    width: 50%;
+    display: flex;
+    align-self: center;
+    border: 5px solid aliceblue;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
 }
 
 @media (min-width: 1025px) {

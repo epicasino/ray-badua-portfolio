@@ -46,7 +46,7 @@ nav {
 
   header{
     margin-top: 3rem;
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
   }
 
   nav {
@@ -76,4 +76,16 @@ nav {
   .navIcons {
     display: none;
   }
+}
+
+@media (max-width: 960px) {
+  header{
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1025px) {
+}
+
+@media (max-width: 1280px) {
 }

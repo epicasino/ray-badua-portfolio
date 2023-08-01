@@ -23,3 +23,19 @@ main {
   min-height: 79vh;
   height: 100%;
 }
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 960px) {
+  main {
+    min-height: 85vh;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1025px) {
+}
+
+@media (max-width: 1280px) {
+}
