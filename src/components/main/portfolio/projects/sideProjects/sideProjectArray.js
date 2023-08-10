@@ -6,7 +6,7 @@ export const sideProjectArray = [
       'A full-stack web application that gets current information on weather, along with a weekly tide-chart to plan your next fishing trip in San Diego.',
     github: 'https://github.com/epicasino/fishing-forecast',
     heroku: 'https://github.com/epicasino',
-    imgUrl: '../../../../assets/images/bi-background-black.png',
+    imgUrl: '../../../../assets/images/fishing-forecast.JPG',
   },
   {
     projectName: `BallDontLie`,
