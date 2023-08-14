@@ -6,10 +6,10 @@ import { sideProjectArray } from '../components/main/portfolio/projects/sideProj
 function Portfolio() {
   return (
     <>
-      <div id="portfolio">
-        <div className="container" id="portfolioText">
+      <section id="portfolio">
+        <header className="container" id="portfolioText">
           <h1 className="portfolioTitle animate-bounce">Portfolio</h1>
-        </div>
+        </header>
 
         <MainProject
           props={{
@@ -25,7 +25,7 @@ function Portfolio() {
         {sideProjectArray.map((project) => (
           <SideProject props={project} key={project.projectName} />
         ))}
-      </div>
+      </section>
     </>
   );
 }

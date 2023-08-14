@@ -17,6 +17,7 @@
 .aboutMeText > h1 {
   font-size: 4vh;
   padding-bottom: 1vh;
+  margin-bottom: 2vh;
   border-bottom: 2px solid;
 }
 

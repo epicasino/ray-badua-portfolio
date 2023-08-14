@@ -2,8 +2,8 @@ import "./sideProject.css";
 
 export default function SideProject({ props }) {
   return (
-    <div className="sideProjectContainer w-screen mt-10 p-5">
-      <div className="sideProjectText">
+    <section className="sideProjectContainer w-screen mt-10 p-5">
+      <article className="sideProjectText">
         <h1 className="text-7xl">{props.projectName}</h1>
         <h5>{props.projectTech}</h5>
         <hr />
@@ -34,7 +34,7 @@ export default function SideProject({ props }) {
             <></>
           )}
         </div>
-      </div>
+      </article>
       <a
         href={props.heroku ? props.heroku : props.github}
         target="_blank"
@@ -44,6 +44,6 @@ export default function SideProject({ props }) {
           backgroundImage: `url(${props.imgUrl})`,
         }}
       ></a>
-    </div>
+    </section>
   );
 }

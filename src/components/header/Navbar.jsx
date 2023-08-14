@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="p-4">
       <div className="navLinks">
-        <p className="text-xl">Ray Badua</p>
+        <Link to='/' className="text-xl">Ray Badua</Link>
         <a href="/about-me">
           <Link
             to="/about-me"

@@ -3,8 +3,8 @@ import "../components/main/aboutMe/aboutMe.css";
 export default function AboutMe() {
   return (
     <>
-      <div id="aboutMe">
-        <div className="aboutMeText slideFadeIn">
+      <section id="aboutMe">
+        <aside className="aboutMeText slideFadeIn">
           <h1>About Me</h1>
           <p>
             Hello! I&#39;m a full-stack engineer with expertise in{" "}
@@ -28,12 +28,12 @@ export default function AboutMe() {
               </a>
             </span>
           </p>
-        </div>
+        </aside>
         <img
           className="aboutMeImg fadeIn"
           src="../../assets/images/ray_beach.JPG"
         ></img>
-      </div>
+      </section>
     </>
   );
 }

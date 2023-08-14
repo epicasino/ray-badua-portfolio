@@ -1,6 +1,6 @@
 export default function ContactForm() {
   return (
-    <div className="contactForm container col-span-2 grid grid-rows-3 content-center">
+    <section className="contactForm container col-span-2 grid grid-rows-3 content-center">
       <h1 className="text-5xl grid content-center justify-center row-span-1 underline">
         Contact Form
       </h1>
@@ -54,6 +54,6 @@ export default function ContactForm() {
           Submit
         </button>
       </form>
-    </div>
+    </section>
   );
 }

@@ -2,8 +2,8 @@ import "./mainProject.css";
 
 export default function MainProject({ props }) {
   return (
-    <div className="mainProjectContainer w-screen mt-10 p-5">
-      <div className="mainProjectText">
+    <section className="mainProjectContainer w-screen mt-10 p-5">
+      <article className="mainProjectText">
         <h1 className="text-7xl">{props.title}</h1>
         <h5>{props.tech}</h5>
         <hr />
@@ -36,7 +36,7 @@ export default function MainProject({ props }) {
             <></>
           )}
         </div>
-      </div>
+      </article>
       <a
         href={props.heroku ? props.heroku : props.github}
         target="_blank"
@@ -44,6 +44,6 @@ export default function MainProject({ props }) {
         className="mainProjectImage hover:filter-none"
         style={{ backgroundImage: `url(${props.imgUrl})` }}
       ></a>
-    </div>
+    </section>
   );
 }
