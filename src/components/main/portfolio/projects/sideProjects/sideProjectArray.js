@@ -1,11 +1,20 @@
 export const sideProjectArray = [
   {
+    projectName: 'Coding Resources',
+    projectTech: 'NextJS, TypeScript',
+    description:
+      'A responsive and simple web application to view resources on Full-Stack Web Development, ranging from basic HTML to MongoDB.',
+    github: 'https://github.com/epicasino/Coding-Resources',
+    vercel: 'https://coding-resources.vercel.app/',
+    imgUrl: '../../../../assets/images/coding-resources.JPG',
+  },
+  {
     projectName: 'Fishing Forecast',
     projectTech: 'MongoDB, ExpressJS, React, NodeJS',
     description:
       'A full-stack web application that gets current information on weather, along with a weekly tide-chart to plan your next fishing trip in San Diego.',
     github: 'https://github.com/epicasino/fishing-forecast',
-    heroku: 'https://github.com/epicasino',
+    netlify: 'https://fishing-forecast-tide-sd.netlify.app/',
     imgUrl: '../../../../assets/images/fishing-forecast.JPG',
   },
   {

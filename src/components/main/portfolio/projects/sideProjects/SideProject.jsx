@@ -1,4 +1,4 @@
-import "./sideProject.css";
+import './sideProject.css';
 
 export default function SideProject({ props }) {
   return (
@@ -12,14 +12,14 @@ export default function SideProject({ props }) {
           <li>{props.description}</li>
         </p>
         <br />
-        <div className="sideProjectIcons" style={{ display: "flex" }}>
+        <div className="sideProjectIcons" style={{ display: 'flex' }}>
           <a href={props.github} rel="noreferrer" target="_blank">
             <img
               src="../../assets/images/mark-github.svg"
               style={{
-                height: "2rem",
+                height: '2rem',
                 filter: `invert()`,
-                padding: "0 .5em 0 .5em",
+                padding: '0 .5em 0 .5em',
               }}
             />
           </a>
@@ -27,7 +27,21 @@ export default function SideProject({ props }) {
             <a href={props.heroku} rel="noreferrer" target="_blank">
               <img
                 src="../../assets/images/heroku.svg"
-                style={{ height: "2rem", padding: "0 .5em 0 .5em" }}
+                style={{ height: '2rem', padding: '0 .5em 0 .5em' }}
+              />
+            </a>
+          ) : props.vercel ? (
+            <a href={props.vercel} rel="noreferrer" target="_blank">
+              <img
+                src="../../assets/images/vercel-fill.svg"
+                style={{ height: '2rem', padding: '0 .5em 0 .5em' }}
+              />
+            </a>
+          ) : props.netlify ? (
+            <a href={props.netlify} rel="noreferrer" target="_blank">
+              <img
+                src="../../assets/images/netlify.svg"
+                style={{ height: '2rem', padding: '0 .5em 0 .5em' }}
               />
             </a>
           ) : (
@@ -36,7 +50,15 @@ export default function SideProject({ props }) {
         </div>
       </article>
       <a
-        href={props.heroku ? props.heroku : props.github}
+        href={
+          props.heroku
+            ? props.heroku
+            : props.vercel
+            ? props.vercel
+            : props.netlify
+            ? props.netlify
+            : props.github
+        }
         target="_blank"
         rel="noreferrer"
         className="sideProjectImage hover:filter-none"
