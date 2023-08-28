@@ -8,15 +8,15 @@ export const sideProjectArray = [
     vercel: 'https://coding-resources.vercel.app/',
     imgUrl: '../../../../assets/images/coding-resources.JPG',
   },
-  {
-    projectName: 'Fishing Forecast',
-    projectTech: 'MongoDB, ExpressJS, React, NodeJS',
-    description:
-      'A full-stack web application that gets current information on weather, along with a weekly tide-chart to plan your next fishing trip in San Diego.',
-    github: 'https://github.com/epicasino/fishing-forecast',
-    netlify: 'https://fishing-forecast-tide-sd.netlify.app/',
-    imgUrl: '../../../../assets/images/fishing-forecast.JPG',
-  },
+  // {
+  //   projectName: 'Fishing Forecast',
+  //   projectTech: 'MongoDB, ExpressJS, React, NodeJS',
+  //   description:
+  //     'A full-stack web application that gets current information on weather, along with a weekly tide-chart to plan your next fishing trip in San Diego.',
+  //   github: 'https://github.com/epicasino/fishing-forecast',
+  //   netlify: 'https://fishing-forecast-tide-sd.netlify.app/',
+  //   imgUrl: '../../../../assets/images/fishing-forecast.JPG',
+  // },
   {
     projectName: `BallDontLie`,
     projectTech: `NodeJS, ExpressJS, MySQL`,
