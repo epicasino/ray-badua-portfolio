@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .navbar-link {
+    @apply;
+  }
+  .navbar-line {
+    @apply w-8 h-px bg-neutral-100 mr-2;
+  }
+  .navbar-text {
+    @apply;
+  }
+}

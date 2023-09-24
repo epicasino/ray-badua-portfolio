@@ -1,6 +1,6 @@
 export default function Sidebar() {
   return (
-    <aside className="w-1/2 flex flex-col p-10">
+    <aside className="w-2/5 top-0 h-screen flex flex-col p-10 sticky">
       <header className="text-neutral-50 flex flex-col gap-3">
         <h1 className="text-7xl font-bold">Ray Badua</h1>
         <h3 className="text-2xl font-semibold">Full Stack Web Developer</h3>
@@ -10,8 +10,13 @@ export default function Sidebar() {
         </h5>
         <hr />
       </header>
-      <nav>
-
+      <nav className="text-neutral-50 mt-32 text-xl">
+        <ul>
+          <a href="#about" className="flex items-center">
+            <span className="navbar-line"></span>
+            <span>About</span>
+          </a>
+        </ul>
       </nav>
     </aside>
   );
