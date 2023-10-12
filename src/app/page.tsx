@@ -1,6 +1,7 @@
 import About from './components/about/About';
 import Sidebar from './components/sidebar/Sidebar';
 import Experiences from './components/experience/Experiences';
+import Projects from './components/projects/Projects';
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       <main className="w-1/2 flex flex-col py-10 min-h-[200vh]">
         <About />
         <Experiences />
-
+        <Projects />
       </main>
     </div>
   );
