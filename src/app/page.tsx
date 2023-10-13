@@ -2,6 +2,8 @@ import About from './components/about/About';
 import Sidebar from './components/sidebar/Sidebar';
 import Experiences from './components/experience/Experiences';
 import Projects from './components/projects/Projects';
+import ResumeBox from './components/ResumeBox';
+import Contact from './components/contact/Contact';
 
 export default function Home() {
   return (
@@ -10,7 +12,10 @@ export default function Home() {
       <main className="w-1/2 flex flex-col min-h-[200vh]">
         <About />
         <Experiences />
+        <ResumeBox />
         <Projects />
+        {/* Do full Project Page... Soon... */}
+        <Contact />
       </main>
     </div>
   );

@@ -36,7 +36,7 @@ export default function ProjectBox({ project }: iProject) {
               href={project.deployment}
               className="flex flex-row gap-2 font-bold text-2xl"
             >
-              <h3 className="hover:underline hover:scale-110 transition hover-text">
+              <h3 className="hover:underline transition hover-text">
                 {project.title}
               </h3>
               <p className="group-hover:translate-x-2 transition hover-text">

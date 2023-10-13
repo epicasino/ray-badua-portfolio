@@ -1,5 +1,4 @@
 import ExperienceBox from './ExperienceBox';
-import ResumeBox from './ResumeBox';
 import experiences from './experiences.json';
 
 export default function Experiences() {
@@ -8,7 +7,6 @@ export default function Experiences() {
       {experiences.map((experience) => (
         <ExperienceBox experience={experience} key={experience.title} />
       ))}
-      <ResumeBox />
     </section>
   );
 }
