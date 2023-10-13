@@ -1,0 +1,20 @@
+[
+  {
+    "date": 2023,
+    "title": "Project Manager · UC San Diego",
+    "notes": [
+      "Lead and oversaw various project workflows and managed Kanban boards within an agile work environment to maintain a steady work-pace.",
+      "Assisted project members in reviewing and providing feedback on their code during daily scrums.",
+      "Managed merge conflicts and merge pull requests from project collaborators within GitHub Project Repositories in order to maintain a stable, clean, and functioning application."
+    ],
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "MongoDB",
+      "Express",
+      "ReactJS",
+      "NodeJS"
+    ]
+  }
+]

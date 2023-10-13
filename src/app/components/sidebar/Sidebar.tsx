@@ -10,13 +10,19 @@ export default function Sidebar() {
         </h5>
         <hr />
       </header>
-      <nav className="text-neutral-50 mt-32 text-xl">
-        <ul>
-          <a href="#about" className="flex items-center">
-            <span className="navbar-line"></span>
-            <span>About</span>
-          </a>
-        </ul>
+      <nav className="text-neutral-50 mt-24 text-2xl">
+        <a href="#about" className="flex items-center group">
+          <span className="navbar-line group-hover:w-24 transition-all" />
+          <span>About</span>
+        </a>
+        <a href="#experiences" className="flex items-center group">
+          <span className="navbar-line group-hover:w-24 transition-all" />
+          <span>Experience</span>
+        </a>
+        <a href="#experiences" className="flex items-center group">
+          <span className="navbar-line group-hover:w-24 transition-all" />
+          <span>Projects</span>
+        </a>
       </nav>
     </aside>
   );
