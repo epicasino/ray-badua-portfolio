@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="bg-neutral-950 mx-auto w-auto min-h-screen flex justify-between gap-36 px-24">
       <Sidebar />
-      <main className="w-1/2 flex flex-col py-10 min-h-[200vh]">
+      <main className="w-1/2 flex flex-col min-h-[200vh]">
         <About />
         <Experiences />
         <Projects />

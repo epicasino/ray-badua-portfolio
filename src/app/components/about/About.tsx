@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className="text-neutral-50">
+    <section id="about" className="text-neutral-50 font-semibold leading-loose pt-10">
       <p>
         Hello! I&apos;m a full-stack engineer with expertise in MongoDB,
         Express, React, and NodeJS. I&apos;ve been a programmer for 2 years,
