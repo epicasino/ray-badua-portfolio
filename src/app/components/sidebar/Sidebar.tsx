@@ -19,7 +19,7 @@ export default function Sidebar() {
           <span className="navbar-line group-hover:w-24 transition-all" />
           <span>Experience</span>
         </a>
-        <a href="#experiences" className="flex items-center group">
+        <a href="#projects" className="flex items-center group">
           <span className="navbar-line group-hover:w-24 transition-all" />
           <span>Projects</span>
         </a>
