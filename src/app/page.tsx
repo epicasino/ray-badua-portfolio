@@ -4,6 +4,7 @@ import Experiences from './components/experience/Experiences';
 import Projects from './components/projects/Projects';
 import ResumeBox from './components/ResumeBox';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Projects />
         {/* Do full Project Page... Soon... */}
         <Contact />
+        <Footer />
       </main>
     </div>
   );
