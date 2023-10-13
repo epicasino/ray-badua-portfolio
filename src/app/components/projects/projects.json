@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Mesa Rim Buddy Finder",
+    "date": 2023,
+    "description": "A Full-Stack Web Application to find and connect with climbing partners at Mesa Rim. Instead of trying to decipher people's handwriting on a tiny board (including my own), you can now view and connect with climbers on your phone or desktop!",
+    "image": "/images/mesa_rim_buddy_finder.jpg",
+    "imageAlt": "Mesa Rim Buddy Finder homepage image",
+    "deployment": "https://mesa-rim-ec17e5be81fd.herokuapp.com/",
+    "github": "https://github.com/epicasino/mesa-rim-buddy-finder",
+    "tech": [
+      "MongoDB",
+      "Express",
+      "ReactJS",
+      "NodeJS",
+      "TypeScript",
+      "GraphQL",
+      "Heroku",
+      "Tailwind"
+    ]
+  },
+  {
+    "title": "Coding Resources",
+    "date": 2023,
+    "description": "A simple coding resources website for the average programmer to quickly scroll and find the resource/documentation they need for a specific section in their project.",
+    "image": "/images/coding_resources.jpg",
+    "imageAlt": "Coding Resources homepage image",
+    "deployment": "https://coding-resources.vercel.app/",
+    "github": "https://github.com/epicasino/Coding-Resources",
+    "tech": ["NextJS", "TypeScript", "Vercel"]
+  },
+  {
+    "title": "DayTripper",
+    "date": 2023,
+    "description": "A full-stack web application that allows you to create an account, create a road trip, and save to your account. Trip data supplied by the Google Platform API.",
+    "image": "/images/daytripper.jpg",
+    "imageAlt": "Daytripper homepage image",
+    "deployment": "https://daytripper-app-1577e78f3877.herokuapp.com/",
+    "github": "https://github.com/epicasino/daytripper",
+    "tech": ["MongoDB", "Express", "ReactJS", "NodeJS", "GraphQL", "Heroku"]
+  }
+]

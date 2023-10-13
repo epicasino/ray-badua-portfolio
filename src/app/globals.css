@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  /* .navbar-link {
+    @apply;
+  } */
+
+  /* .navbar-text {
+    @apply;
+  } */
+
+  .navbar-line {
+    @apply w-8 h-[0.1rem] bg-neutral-100 mr-2;
+  }
+
+  .tech-btn {
+    @apply bg-blue-700 text-slate-50 text-sm py-1 px-3 rounded-2xl group-hover:bg-blue-600 transition;
+  }
+
+  .hover-text {
+    @apply text-gray-300 group-hover:text-slate-50 transition;
+  }
+}
