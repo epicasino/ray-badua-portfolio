@@ -2,9 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- A front-end portfolio built with NextJS, and styled with Tailwind.
+- A front-end portfolio built with NextJS, and styled with Tailwind, written with TypeScript.
 - With this project, I can showcase my proficiency in web development, along with showing potential job prospects my skills as a modern front-end web developer.
 
 ## Installation
