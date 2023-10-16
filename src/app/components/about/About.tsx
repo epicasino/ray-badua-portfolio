@@ -1,6 +1,10 @@
 export default function About() {
   return (
-    <section id="about" className="text-neutral-50 leading-loose pt-10 text-lg">
+    <section id="about" className="text-neutral-50 leading-loose pt-10 md:text-lg">
+      <p className="md:hidden text-xl mb-5 font-semibold">
+        About
+        <hr />
+      </p>
       <p>
         Hello! I&apos;m a full-stack engineer with expertise in{' '}
         <strong>MongoDB</strong>, <strong>Express</strong>,{' '}
