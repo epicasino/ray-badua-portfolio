@@ -23,4 +23,5 @@
   .hover-text {
     @apply text-gray-300 group-hover:text-slate-50 transition;
   }
+
 }
