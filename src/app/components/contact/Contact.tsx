@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section id="contact" className="flex flex-col gap-5 text-slate-50 mt-14">
       <header className="flex flex-col gap-2">
-        <h3 className="text-2xl">Questions? Comments? Contact Me!</h3>
+        <h3 className="md:text-2xl text-xl">Questions? Comments? Contact Me!</h3>
         <hr />
       </header>
       <a

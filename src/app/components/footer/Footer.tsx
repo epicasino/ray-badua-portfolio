@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="mt-24 mb-10 font-thin text-slate-200 flex flex-col gap-4">
+    <footer className="mt-24 mb-10 font-thin text-slate-200 flex flex-col gap-4 xs:justify-end">
       <hr className="w-3/4" />
       <p className="w-1/2">
         Designed in{' '}
