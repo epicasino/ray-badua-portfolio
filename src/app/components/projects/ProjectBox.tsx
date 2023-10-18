@@ -15,8 +15,8 @@ interface iProject {
 
 export default function ProjectBox({ project }: iProject) {
   return (
-    <article className="grid grid-cols-12 mt-12 bg-gray-200 bg-opacity-30 p-6 rounded-xl transition ease-in-out hover:bg-opacity-40 group">
-      <div className="col-span-4 flex flex-col justify-between items-start font-bold text-sm hover-text">
+    <article className="flex flex-col-reverse md:grid md:grid-cols-12 mt-12 bg-gray-200 bg-opacity-30 p-6 rounded-xl transition ease-in-out hover:bg-opacity-40 group">
+      <div className="mt-8 md:mt-0 gap-5 items-center col-span-4 flex flex-col md:justify-between md:items-start font-bold text-sm hover-text">
         <a href={project.deployment} target="_blank">
           <Image
             src={project.image}
@@ -24,7 +24,7 @@ export default function ProjectBox({ project }: iProject) {
             height={0}
             sizes="100vw"
             alt={project.imageAlt}
-            className="w-10/12 rounded border-gray-200 border-opacity-30 group-hover:border-opacity-40 border-2 brightness-75 group-hover:brightness-100 transition"
+            className="xs:w-full md:w-10/12 rounded border-gray-200 border-opacity-30 group-hover:border-opacity-40 border-2 brightness-75 group-hover:brightness-100 transition"
           />
         </a>
         <p>{project.date}</p>
@@ -34,7 +34,7 @@ export default function ProjectBox({ project }: iProject) {
           <div className="flex flex-row justify-between">
             <a
               href={project.deployment}
-              className="flex flex-row gap-2 font-bold text-2xl"
+              className="flex flex-row gap-2 font-bold md:text-2xl"
             >
               <h3 className="hover:underline transition hover-text">
                 {project.title}
