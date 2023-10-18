@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 @layer components {
-
   /* .navbar-link {
     @apply;
   } */
@@ -17,11 +16,10 @@
   }
 
   .tech-btn {
-    @apply bg-blue-700 text-slate-50 text-sm py-1 px-3 rounded-2xl group-hover:bg-blue-600 transition xs:text-xs;
+    @apply bg-blue-700 text-slate-50 md:text-sm py-1 px-3 rounded-2xl group-hover:bg-blue-600 transition text-xs;
   }
 
   .hover-text {
     @apply text-gray-300 group-hover:text-slate-50 transition;
   }
-
 }
