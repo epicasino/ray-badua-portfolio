@@ -1,11 +1,30 @@
 [
   {
+    "title": "GottaDex",
+    "date": 2024,
+    "description": "A full-stack application that helps track your progress on completing the National Pokedex. Neatly organizes and filters through your current progress without the need of manually creating a Spreadsheet or Excel sheet.",
+    "image": "/images/gottadex.jpg",
+    "imageAlt": "GottaDex homepage image",
+    "deployment": "https://gottadex.onrender.com/",
+    "github": "https://github.com/epicasino/GottaDex",
+    "tech": [
+      "MongoDB",
+      "Express",
+      "ReactJS",
+      "NodeJS",
+      "TypeScript",
+      "GraphQL",
+      "Render",
+      "Tailwind"
+    ]
+  },
+  {
     "title": "Mesa Rim Buddy Finder",
     "date": 2023,
     "description": "A Full-Stack Web Application to find and connect with climbing partners at Mesa Rim. Instead of trying to decipher people's handwriting on a tiny board (including my own), you can now view and connect with climbers on your phone or desktop!",
     "image": "/images/mesa_rim_buddy_finder.jpg",
     "imageAlt": "Mesa Rim Buddy Finder homepage image",
-    "deployment": "https://mesa-rim-ec17e5be81fd.herokuapp.com/",
+    "deployment": "https://mesa-rim-buddy-finder.onrender.com/",
     "github": "https://github.com/epicasino/mesa-rim-buddy-finder",
     "tech": [
       "MongoDB",
@@ -14,7 +33,8 @@
       "NodeJS",
       "TypeScript",
       "GraphQL",
-      "Heroku",
+      "Heroku (Formerly)",
+      "Render",
       "Tailwind"
     ]
   },
@@ -34,8 +54,16 @@
     "description": "A full-stack web application that allows you to create an account, create a road trip, and save to your account. Trip data supplied by the Google Platform API.",
     "image": "/images/daytripper.jpg",
     "imageAlt": "Daytripper homepage image",
-    "deployment": "https://daytripper-app-1577e78f3877.herokuapp.com/",
+    "deployment": "https://daytripper.onrender.com/",
     "github": "https://github.com/epicasino/daytripper",
-    "tech": ["MongoDB", "Express", "ReactJS", "NodeJS", "GraphQL", "Heroku"]
+    "tech": [
+      "MongoDB",
+      "Express",
+      "ReactJS",
+      "NodeJS",
+      "GraphQL",
+      "Heroku (Formerly)",
+      "Render"
+    ]
   }
 ]
