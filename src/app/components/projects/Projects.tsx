@@ -13,3 +13,14 @@ export default function Projects() {
     </section>
   );
 }
+
+// {
+//     "title": "",
+//     "date": "",
+//     "description": "",
+//     "image": "",
+//     "imageAlt": "",
+//     "deployment": "",
+//     "github": "",
+//     "tech": []
+//   },
